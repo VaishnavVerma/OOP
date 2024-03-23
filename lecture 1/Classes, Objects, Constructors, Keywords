@@ -1,0 +1,25 @@
+Classes:
+Think of a class as a blueprint or a template for creating objects. It defines the characteristics and behavior of objects. For example, if you have a class called "Car," it would define what attributes (like color, model, and speed) and methods (like drive or stop) a car can have.
+
+Objects:
+Objects are instances of classes. When you create an object, you are essentially creating a specific realization of the blueprint defined by the class. Going back to the "Car" example, if you create an object named "my_car" from the class "Car," you are creating a specific car with its own color, model, and speed.
+
+Constructors:
+Constructors are special methods within a class that are automatically called when you create an object from that class. They are used to initialize the object's state, setting up any initial values or configurations. In Python, the constructor method is always named __init__. It's like the factory assembly line that sets up the initial characteristics of an object as soon as it's created.
+
+Keywords:
+Keywords are reserved words in Python that have special meanings and are used to perform specific tasks. They cannot be used as variable names or identifiers. Examples of keywords in Python include class, def, if, else, for, while, import, and return. These keywords are fundamental building blocks of the Python language and are used to define the structure and flow of your code.
+
+In essence:
+
+Classes are blueprints defining what objects will look like and what they can do.
+Objects are specific instances created from those blueprints.
+Constructors are special methods called when objects are created to initialize them.
+Keywords are reserved words with specific meanings in Python.
+
+
+
+self:
+In Python, when you define a method within a class, you always include self as the first parameter of that method.
+self refers to the instance of the class itself. It allows you to access and modify attributes of the object within the class's methods.
+When you call a method on an object, Python automatically passes the object's reference as the first argument to the method. You don't need to explicitly pass it; Python does it for you.
